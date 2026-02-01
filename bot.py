@@ -2,7 +2,7 @@ import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = os.getenv(8508758212:AAH57JNhrIMScMfb0KM7gFeZf2wfzjievQE)
+TOKEN = os.getenv("BOT_TOKEN")
 # User score storage
 user_scores = {}
 
